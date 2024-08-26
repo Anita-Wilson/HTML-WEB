@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="address">
+	<h1>Codetrain Registration Form</h1>
+	<p>
+		There are 3 steps in our application process. Firstly, fill out this enrolment form, and then our admissions team will reach out to you to find out if you are a good fit for the program. If you make it through, we will assist you to get started on the admissions process. 
+	</p>
+	<hr>
+	<p >annwilson1024@gmail.com <a href="">Switch account</a></p>
+	<div class="cloud-icon">
+	<img src="https://cdn2.iconfinder.com/data/icons/cloud-computing-line-vol-2-1/60/tick__check__mark__cloud__database-512.png" position="right" width="30px" height="30px">
+</div>
+	<hr>
+	<p style="color:red;">*Indicate required questions</p>
+    </div>
+
+  <div class="container-input">
+  	<label for="email">Email<sup style="color:red;">*</sup></label>
+  	<input type="text" id="email" placeholder="Your email">
+  </div>
+
+  <div class="container-input">
+    <label for="FullName">Full Name<sup style="color:red;">*</sup></label>
+  	<input type="text" id="FullName" placeholder="Your answer">
+</div>
+<div class="container-input">
+	<label for="PhoneNumber">Phone Number<sup style="color:red;">*</sup></label>
+	<input type="number" id="PhoneNumber" placeholder="Your answer">
+	</div>
+	<div class="container-input" id="NextOfKin">
+		<label for="NextOfKin">Next Of Kin</label>
+		<p>Phone number of next of kin
+       Phone number of someone we can reach out to in case your phone is off or not reachable. Eg, your parent, guardian or sibling, or spouse</p>
+		<input type="text" id="NextOfKin" placeholder="Your answer">
+	</div>
+	<div class="container-input">
+		<label>Can you pay 60% or more of the full Codetrain fees (GHS6000)<sup style="color:red;">*</sup></label>
+		<div class="radio-group-container">
+		<div class="radio-group">
+			<input type="radio" name="question-fee" value="Yes" class="special-input" id="Yes">
+			<label for="Yes" class="special-label">Yes</label>
+		</div>
+    <div class="radio-group">
+			<input type="radio" name="question-fee" value="No" class="special-input" id="No">
+			<label for="No" class="special-label">No</label>
+		</div>
+	</div>
+	</div>
+
+	<div class="container-input">
+		<label>Please indicate who is going to pay your fees<sup style="color:red;">*</sup></label>
+		<div class="radio-group-container">
+			<div class="radio-group">
+				<input type="radio" name="question-fee" value="Yes" class="special-input" id="Yes">
+				<label for="Yes" class="special-label">Yourself</label>
+			</div>
+				<div class="radio-group">
+					<input type="radio" name="question-fee" value="No" class="special-input" id="No">
+				<label for="No" class="special-label">Parent/Sponsor</label>
+			</div>
+       <div class="radio-group">
+					<input type="radio" name="question-fee" value="No" class="special-input" id="No">
+				<label for="No" class="special-label">Organization</label>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-input">
+		<label for="FullName">Location<sup style="color:red;">*</sup></label>
+		<input type="text" id="Location" placeholder=" Your answer">
+  </div>
+  <div class="container-input">
+  	<label for="school">Current or previous school<sup style="color:red;">*</sup></label>
+  	<input type="text" id="goal" placeholder="Your answer">
+  </div>
+  <div class="container-input">
+  	<label for="school">Why do you want to join Codetrain<sup style="color:red;">*</sup> </label>
+  	<input type="text" id="goal" placeholder="Your answer">
+  </div>
+  <div class="container-input">
+  	<label for="school">How did you hear about Codetrain ?
+    <sup style="color:red;">*</sup> </label>
+  	<input type="text" id="goal" placeholder="Your answer">
+  </div>
+  <p class="p-colour">A copy of your responses will be emailed to the address you provided.</p>
+
+  <div class="flex-container">
+  	<input type="button" value="Submit">
+  	<div class="div-flex">
+  		<div></div>
+  		<p>Page 1 of 1</p>
+  	</div>
+  	<button>Clear form</button>
+  </div>
+  <p class="p-colour" id="special-p">Never submit passwords through Google Forms</p>
+  <div class="form-footer">
+  	<div class="recaptcha-container">
+  		<img src="C:\Users\HP\Desktop\PRACTICE.HTML\cap.png" alt="" width="100px" height="100px" >
+  		<span class="span1">reCAPTCHA</span>
+  	</div>
+  	<div class="footer-links">
+  		<a href="#">Privacy</a>
+  		<a href="#">Terms</a>
+  	</div>
+  </div>
+  <p>This content is neither created nor endorsed by Google. <a href="">Report Abuse</a>- <a href="">Terms of Service</a> -<a href="">Privacy Policy</a></p>
+  <p><span>Google</span><span class="span2">Forms</span></p>
+</body>
+</html>	
